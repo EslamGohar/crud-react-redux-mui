@@ -1,0 +1,103 @@
+{
+  "company": [
+    {
+      "id": 1,
+      "name": " Jon Snow",
+      "birthDate": "2023-08-21",
+      "gender": "Male",
+      "academicYear": "2014",
+      "Governorate": "Giza",
+      "administration": "maadi"
+    },
+    {
+      "id": 2,
+      "name": "Eslam Gohar",
+      "birthDate": "2000-02-21",
+      "gender": "male",
+      "academicYear": "2015",
+      "Governorate": "Al Gharbia",
+      "administration": "dokki"
+    },
+    {
+      "id": 3,
+      "name": "Mona T.",
+      "birthDate": "1996-08-21T21:00:00.000Z",
+      "gender": "Female",
+      "academicYear": "2018",
+      "Governorate": "Cairo",
+      "administration": "bishr"
+    },
+    {
+      "id": 4,
+      "name": "Yasmine R.",
+      "birthDate": "1999-07-31T21:00:00.000Z",
+      "gender": "Female",
+      "academicYear": "2020",
+      "Governorate": "Banha",
+      "administration": "tanta"
+    },
+    {
+      "id": 5,
+      "name": "dark knight",
+      "birthDate": "2004-09-20T21:00:00.000Z",
+      "gender": "Male",
+      "academicYear": "2024",
+      "Governorate": "Banha",
+      "administration": ""
+    },
+    {
+      "id": 9,
+      "name": "fgfg erer",
+      "birthDate": "1998-09-16",
+      "gender": "Male",
+      "academicYear": "2020",
+      "Governorate": "Giza",
+      "administration": "maadi"
+    },
+    {
+      "id": 10,
+      "name": "islam",
+      "birthDate": "1996-05-26",
+      "gender": "Male",
+      "academicYear": "2019",
+      "Governorate": "Al Gharbia",
+      "administration": ""
+    },
+    {
+      "id": 11,
+      "name": "es em ooo",
+      "birthDate": "1992-06-30",
+      "gender": "Male",
+      "academicYear": "2014",
+      "Governorate": "Cairo",
+      "administration": ""
+    },
+    {
+      "id": 12,
+      "name": "ffff xyz w",
+      "birthDate": "2006-10-04",
+      "gender": "Female",
+      "academicYear": "2022",
+      "Governorate": "Al Gharbia",
+      "administration": ""
+    },
+    {
+      "id": 13,
+      "name": "nnn mmmm",
+      "birthDate": "2005-04-03T21:00:00.000Z",
+      "gender": "Male",
+      "academicYear": "2025",
+      "Governorate": "Giza",
+      "administration": ""
+    },
+    {
+      "id": 15,
+      "name": "Roo Tooo",
+      "birthDate": "1995-08-21T21:00:00.000Z",
+      "gender": "Female",
+      "academicYear": "2018",
+      "Governorate": "Alexandria",
+      "administration": ""
+    }
+  ]
+}
