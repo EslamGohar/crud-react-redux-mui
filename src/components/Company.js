@@ -29,6 +29,7 @@ import EditIcon from "@mui/icons-material/Edit";
 import { AdapterDayjs } from "@mui/x-date-pickers/AdapterDayjs";
 import { LocalizationProvider } from "@mui/x-date-pickers/LocalizationProvider";
 import { DatePicker } from "@mui/x-date-pickers/DatePicker";
+import dayjs from "dayjs";
 
 import { openPopup } from "../Redux/Action";
 import {
@@ -54,7 +55,7 @@ const Company = (props) => {
 
   const [id, setId] = useState(0);
   const [name, setName] = useState("");
-  const [birthDate, setBirthDate] = useState(new Date().getDate());
+  const [birthDate, setBirthDate] = useState(new Date());
   const [gender, setGender] = useState("");
   const [governorate, setGovernorate] = useState("");
   const [academicYear, setAcademicYear] = useState("");
@@ -266,7 +267,7 @@ const Company = (props) => {
                 <DatePicker
                   variant="outlined"
                   label="Birth Date"
-                  value={birthDate}
+                  value={dayjs(birthDate)}
                   onChange={(newDate) => {
                     setBirthDate(newDate);
                   }}
@@ -298,15 +299,6 @@ const Company = (props) => {
                 >
                   <MenuItem value="Male">Male</MenuItem>
                   <MenuItem value="Female">Female</MenuItem>
-                  {/* {company.gender.map((gen) => {
-                  return (
-                    <>
-                      <MenuItem key={gen} value={gen}>
-                        {gen}
-                      </MenuItem>
-                    </>
-                  );
-                })} */}
                 </Select>
               </FormControl>
 
@@ -324,7 +316,7 @@ const Company = (props) => {
                   <MenuItem value="Cairo">Cairo</MenuItem>
                   <MenuItem value="Giza">Giza</MenuItem>
                   <MenuItem value="Alexandria">Alexandria</MenuItem>
-                  <MenuItem value="Al Gharbia">Al Gharbia</MenuItem>
+                  <MenuItem value="Al Gharbia">Gharbia</MenuItem>
                   <MenuItem value="Banha">Banha</MenuItem>
                 </Select>
               </FormControl>
